@@ -1,0 +1,11 @@
+.todo-list {
+    list-style-type: square;
+    & > li {
+      cursor: pointer;
+    }
+  
+    & > li.completed {
+      text-decoration: line-through;
+    }
+  }
+  
